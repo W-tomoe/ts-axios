@@ -1,6 +1,6 @@
 import { AxiosRequestConfig, AxiosResponse } from '../typs'
 import xhr from './xhr'
-import { buildURL } from '../helpers/url';
+import { buildURL } from '../helpers/url'
 import { transformRequest, transformResponse } from '../helpers/data'
 
 import { proccessHeaders } from '../helpers/headers'
