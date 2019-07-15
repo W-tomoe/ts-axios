@@ -1,5 +1,5 @@
-import { AxiosRequestConfig, AxiosResponse } from '../typs'
-import { request } from 'https';
+import { AxiosRequestConfig, AxiosResponse } from '../types'
+
 
 export class AxiosError extends Error {
     isAxiosError: boolean

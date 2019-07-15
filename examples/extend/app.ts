@@ -66,7 +66,7 @@ function getUser<T>() {
 async function test() {
     const user = await getUser<User>()
     if(user) {
-        console.log(user.data.name,'user.result.name')
+        console.log(user.data,'user.result.name')
     }
 }
 
